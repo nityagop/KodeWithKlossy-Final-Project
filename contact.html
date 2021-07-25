@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<title>Contact Page</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<style>
+ 
+
+//Typing Text//
+  @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: #eee;
+}
+.container {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+//Title//
+body {
+  background-color: black;
+  font-family: cursive;
+}
+  .glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #cc66ff, 0 0 40px #cc66ff, 0 0 50px #cc66ff, 0 0 60px #cc66ff, 0 0 70px #cc66ff;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #cc99ff, 0 0 40px #cc99ff, 0 0 50px #cc99ff, 0 0 60px #cc99ff, 0 0 70px #cc99ff, 0 0 80px #cc99ff;
+  }
+}
+//Text+Captions//
+h3{
+  color: white;
+}
+p{
+  color: white;
+}
+
+
+
+//slideshow//
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #ccccff;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  text-color: black;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: purple);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: purple;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: #660066;}
+
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+
+h1 {
+  text-shadow: 6px 6px purple;
+}
+
+</style>
+<body>
+ <div class="w3-top">
+    <div class="w3-col s3">
+        <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="gallery.html" class="w3-button w3-block w3-black">GALLERY</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="quiz.html" class="w3-button w3-block w3-black">QUIZ</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="contact.html" class="w3-button w3-block w3-black">CONTACT</a>
+      </div>
+</div> 
+
+         
+
+	<div class="w3-container" id="contact">
+	</div>
+	<!-- Title section -->
+	<div class="w3-container" style="padding:128px 16px" id="team">
+    
+<center><h1>THE GIRLS OF THE FUTURE<h1></center>
+	<h3 class="w3-center w3-large">Contact them here</h3>
+    <p class="w3-center w3-large">Purple Stem Girls was created by four ambitious young females who want to change the world. Let us hear back from you and tell us your story.</p>
+		<div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+			<div class="w3-col l3 m6 w3-margin-bottom">
+				<div class="w3-card">
+					<img src="https://www.coeuscreativegroup.com/wp-content/uploads/2021/03/women-empowerment-movement-pattern_10083-542.jpg" alt="stem" style="width:100%">
+        <div class="w3-container">
+
+          <!-- Introductions -->
+          <h3>Sadia Rahim</h3>
+          <p class="w3-opacity">Hopes to inspire young females to take on challenges that are said to be impossible and to steer away from gender norms designated for females. <3</p>
+          <p><button type="submit" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://internationalwomensday.s3-us-west-2.amazonaws.com/upload/12345-p-89546.png" alt="stem" style="width:100%">
+        <div class="w3-container">
+          <h3>Nitya Gopalakrishnan</h3>
+          <p class="w3-opacity">Works to encourage young females reach their full potential and wants to increase the percentages of working women in STEM. <3 </p>
+          <p><button type="submit" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div><div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://media.istockphoto.com/vectors/go-girl-pattern-with-raised-women-hands-vector-id1084654702?k=6&m=1084654702&s=612x612&w=0&h=peuCV1byyECJQnkKXmAcFw20zULe8hd1cSdvrRu1KAo=" alt="stem" style="width:100%">
+        <div class="w3-container">
+          <h3>Lilja Artman</h3>
+          <p class="w3-opacity">Wants to create a supportive organization where girls all around the world will feel like they can impact the future of STEM. <3 </p>
+          <p><button type="submit" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div><div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://images.squarespace-cdn.com/content/v1/5af129d9cc8fedf89ead4662/1558075984173-ASD4YDMW1ZC0ABF1W5N5/c6b77598132d589c298e09fdaac34c61.jpg?format=750w" alt="stem" style="width:100%">
+        <div class="w3-container">
+          <h3>Kristine Lacap</h3>
+          <p class="w3-opacity">Not only is she an active supporter of any feamle cause but also wants to bring light to anything that people tend to be having a blind eye.<3 </p>
+          <p><button type="submit" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br>
+    <br>
+
+<!-- Typing Effect -->
+  <div class="container">
+    <p>Women are <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+  </div>
+
+<!-- Contact Section -->
+    <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid purple" class="w3-round">
+    <p>The creators of Purple Stem Girls Community would love to hear from you. So share your feedback, perosnal experiences, or anything else you would like. We are all a community trying our best to support one aother.</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-purple w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+<br>
+<br>
+
+
+
+<!-- Slideshow -->
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <q>Each time a woman stands up for herself, she stands up for all women.</q>
+  <p class="author">- Maya Angelou</p>
+</div>
+
+<div class="mySlides">
+  <q>I have learned over the years that when one’s mind is made up, this diminishes fear; knowing what must be done does away with fear.</q>
+  <p class="author">- Rosa Parks</p>
+</div>
+
+<div class="mySlides">
+  <q>A woman with a voice is by definition a strong woman. But the search to find that voice can be remarkably difficult.</q>
+  <p class="author">- Melinda Gates</p>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+
+</body>
+<script>
+//Typing Effect//
+  const typedTextSpan = document.querySelector(".typed-text");
+const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["unstoppable", "smart", "confident", "fearless", "strong"];
+const typingDelay = 200;
+const erasingDelay = 100;
+const newTextDelay = 2000; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+function type() {
+  if (charIndex < textArray[textArrayIndex].length) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+  	setTimeout(erase, newTextDelay);
+  }
+}
+
+function erase() {
+	if (charIndex > 0) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+    textArrayIndex++;
+    if(textArrayIndex>=textArray.length) textArrayIndex=0;
+    setTimeout(type, typingDelay + 1100);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+  if(textArray.length) setTimeout(type, newTextDelay + 250);
+});
+
+//slideshow//
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+</html>
